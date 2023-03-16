@@ -1,7 +1,8 @@
 #include<stdio.h>
 /**
- * main -This is Hello,puts
- * Return : This returns 0
+ * main - This is Hello,puts
+ *
+ * Return: This returns 0
  */
 int main(void)
 {
