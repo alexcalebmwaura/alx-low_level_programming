@@ -1,7 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - This is Hello,printf
- * return: This returns 0
+ * main - Entry point
+ * description: This prints words
+ * Return: Always 0 (success)
  */
 int main(void)
 {
