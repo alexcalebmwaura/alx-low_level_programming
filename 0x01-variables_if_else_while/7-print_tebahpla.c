@@ -1,20 +1,17 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * description: Code runs
+ * description: Code run
  * Return: Always 0 (success)
  */
 int main(void)
 {
+char alp[26] = "zyxwvutsrqponmlkjihgfedcba";
 int i;
 
-for(i = 48; i < 58; i++)
+for (i = 0; i < 26; i++)
 {
-putchar(i);
-}
-for (i = 97; i < 103; i++)
-{
-putchar(i);
+putchar(alp[i]);
 }
 putchar('\n');
 return (0);
