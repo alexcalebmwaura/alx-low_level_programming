@@ -6,12 +6,11 @@
  */
 int main(void)
 {
-char alp[10] = "0123456789";
 int i;
 
 for (i = 0; i < 10; i++)
 {
-putchar(alp[i]);
+putchar(i);
 }
 putchar('\n');
 return (0);
