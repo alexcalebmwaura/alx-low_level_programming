@@ -1,9 +1,10 @@
 #include<stdio.h>
 /**
  * main - Entry point
- * description: Code runs
- * Returns: Always 0 (success)
+ * description: code runs
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
