@@ -1,9 +1,13 @@
 #include<stdio.h>
+
 /**
- * main - This is Hello,put
- * Return: This returns 0
+ * main - Entry point
+ * description: Outputs comments
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0); 
+	puts("Programming is like building a multilingual puzzle");
+	return (0);
+}
