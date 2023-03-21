@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * description: Outputs
+ * description: Outputs code
  * Return: Always 0 (Success)
  */
 

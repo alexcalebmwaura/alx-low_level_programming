@@ -2,7 +2,7 @@
 
 /**
  *main - check the code
- *
+ *description: Outputs code
  *Return: Always 0.
  */
 int main(void)
