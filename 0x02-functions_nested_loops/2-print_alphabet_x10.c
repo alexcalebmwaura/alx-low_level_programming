@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *description: Outputs code
+ * print_alphabet_x10 - Entry point
+ * description: Outputs code
  * Return - Always 0 (Success)
  */
 
