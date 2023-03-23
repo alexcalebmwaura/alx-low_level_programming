@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - Entry point
+ * _isdigit - Entry point
  * @c: Int c
  * Return: Returns 1 if c is uppercase and returns 0 otherwise
  */
