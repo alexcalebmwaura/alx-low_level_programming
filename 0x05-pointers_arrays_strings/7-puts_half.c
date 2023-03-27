@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - Entry point
- * @STR: Entry
+ * @str: Entry
  * Return: Always 0 (Success)
  */
 void puts_half(char *str)
