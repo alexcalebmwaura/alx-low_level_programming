@@ -4,8 +4,8 @@
  * and returns 1 if the strings can be considered
  * identical, otherwise return 0
  *
- * @s1: Input character
- * @s2: Input character
+ * @s1: Input character s1
+ * @s2: Input character s2
  *
  * Return: Always 0 (Success)
  */
