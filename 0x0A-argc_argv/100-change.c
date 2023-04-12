@@ -19,17 +19,23 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	cents = atoi(argv[1]);
-
-	twenties = cents / 25;
-	cents %= 25;
-	tens = cents / 10;
-	cents %= 10;
-	fives = cents / 5;
-	cents %= 5;
-	twos = cents / 2;
-	cents %= 2;
-	ones = cents;
-	totalcoins = (twenties + tens + fives + twos + ones);
-	printf("%d\n", totalcoins);
+	if (cents < 0)
+	{
+		printf("0\n");
+	}
+	else
+	{
+		twenties = cents / 25;
+		cents %= 25;
+		tens = cents / 10;
+		cents %= 10;
+		fives = cents / 5;
+		cents %= 5;
+		twos = cents / 2;
+		cents %= 2;
+		ones = cents;
+		totalcoins = (twenties + tens + fives + twos + ones);
+		printf("%d\n", totalcoins);
+	}
 	return (0);
 }
