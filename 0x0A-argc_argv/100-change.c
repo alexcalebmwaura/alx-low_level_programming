@@ -11,24 +11,24 @@
  */
 int main(int argc, char *argv[])
 {
-	int input, twenties, tens, fives, twos, ones, totalcoins;
+	int cents, twenties, tens, fives, twos, ones, totalcoins;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	input = atoi(argv[1]);
+	cents = atoi(argv[1]);
 
-	twenties = input / 25;
-	input %= 25;
-	tens = input / 10;
-	input %= 10;
-	fives = input / 5;
-	input %= 5;
-	twos = input / 2;
-	input %= 2;
-	ones = input;
+	twenties = cents / 25;
+	cents %= 25;
+	tens = cents / 10;
+	cents %= 10;
+	fives = cents / 5;
+	cents %= 5;
+	twos = cents / 2;
+	cents %= 2;
+	ones = cents;
 	totalcoins = (twenties + tens + fives + twos + ones);
 	printf("%d\n", totalcoins);
 	return (0);
