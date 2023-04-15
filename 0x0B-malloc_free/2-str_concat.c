@@ -15,9 +15,16 @@ char *str_concat(char *s1, char *s2)
 	int s2_length = strlen(s2);
 	int size = s1_length + s2_length + 1;
 	int i;
-
 	char *str_concat;
 
+	if (s1 == NULL)
+	{
+		return (0);
+	}
+	if (s2 == NULL)
+	{
+		return (0);
+	}
 	str_concat = (char *)malloc(size * sizeof(char));
 	if (str_concat == NULL)
 	{
