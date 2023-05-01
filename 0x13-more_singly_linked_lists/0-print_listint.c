@@ -8,16 +8,17 @@
  */
 size_t print_listint(const listint_t *h)
 {
+	int elements = 0;
+
 	if (h == NULL)
 	{
 		return (-1);
 	}
-	struct listint_t *ptr = h;
-
-	while (ptr != NULL)
+	while (h != NULL)
 	{
-		printf("%d\n", ptr->n);
+		printf("%d\n", h->n);
 		elements++;
-		ptr = ptr->next
+		h = h->next;
 	}
+	return (elements);
 }
