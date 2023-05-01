@@ -13,14 +13,13 @@ size_t listint_len(const listint_t *h)
 
 	if (h == NULL)
 	{
-		retrun(-1);
+		return (-1);
 	}
-	struct listint_t *ptr = h;
 
-	while (ptr != NULL)
+	while (h != NULL)
 	{
 		elements++;
-		ptr = ptr->next;
+		h = h->next;
 	}
 	return (elements);
 }
