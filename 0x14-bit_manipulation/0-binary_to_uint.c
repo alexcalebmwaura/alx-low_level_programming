@@ -17,7 +17,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		return (0);
 	}
-	for (a = 0; b[i]; a++)
+	for (a = 0; b[a]; a++)
 	{
 		if (b[a] < '0' || b[a] > 'a')
 		{
@@ -25,5 +25,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 		binary_to_uint = 2 * binary_to_uint + (b[a] - '0');
 	}
-	return (binary_to_uint)
+	return (binary_to_uint);
 }
